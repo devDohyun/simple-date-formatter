@@ -5,18 +5,11 @@
 
 ## 1. Get Started
 **Simple Date Formatter** is light Date formatter
-if you import/load index.js in your code
+if you load index.js in your code
 it will be init automatically
 
-there's few example
-
-### 1. use Script tag
 ```html 
 <script src="./example/location/simple-date-formatter/index.js"></script> 
-```
-### 2. use Javascript ```import```
-```javascript
-import dateFormatter from './example/location/simple-date-formatter' 
 ```  
 after init, you can use date formatter
 
