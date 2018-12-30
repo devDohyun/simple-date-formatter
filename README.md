@@ -24,7 +24,7 @@ after init, you can use date formatter
 It's really simple.
 you can use it like this
 ```javascript
-	new Date().dateFormatter(formatString, lang)
+new Date().dateFormatter(formatString, lang)
 ```
 you can call function with 2 parameters there's description for then below
 	
