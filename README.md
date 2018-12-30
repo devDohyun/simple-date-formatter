@@ -11,12 +11,12 @@ it will be init automatically
 there's few example
 
 ### 1. use Script tag
-```javascript 
-	<script src="./example/location/simple-date-formatter/index.js"></script> 
+```html 
+<script src="./example/location/simple-date-formatter/index.js"></script> 
 ```
 ### 2. use Javascript ```import```
 ```javascript
-	  import dateFormatter from './example/location/simple-date-formatter' 
+import dateFormatter from './example/location/simple-date-formatter' 
 ```  
 after init, you can use date formatter
 
@@ -62,6 +62,10 @@ new Date().dateFormatter('yyyy-MM-dd HH:mm') // 2019-01-01 15:16
 new Date().dateFormatter('yyyy. MM. dd. hh:mm tt') // 2019. 01. 01. 03:16 am
 new Date().dateFormatter('yyyy. MM. dd. tt hh:mm', 'kor') // 2019. 01. 01. 오전 03:16
 new Date().dateFormatter('yyyy. MM. dd. ddd') // 2019. 01. 01. Tue
+```
+Also you can use like this too
+```javascript
+new Date('2018-01-01').dateFormatter('ddd') /// Mon
 ```
 
 Thank you for use :smile:
