@@ -70,4 +70,4 @@ new Date('2018-01-01').dateFormatter('ddd') /// Mon
 
 Thank you for use :smile:
 
-Author : [DohyunAhn](www.도현.com)
+Author : [DohyunAhn](http://www.도현.com)
